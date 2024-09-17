@@ -60,7 +60,7 @@
 <br>
 <br>
 `Above disscused commands in another word as porcelain commands`<br>
-`Plumbing commands` `Examples are git hash-object,git ls-files` <br>
+`Plumbing commands` `Examples are git hash-object,git ls-files etc` ref: https://stackoverflow.com/questions/39847781/which-are-the-plumbing-and-porcelain-commands <br>
 
 
  
