@@ -1,7 +1,7 @@
 # Git Commands For Referance
 
-git init<br>                     ===> initilization <br>
-git add . or git add "filename"<br> ===> To add files/contents to statging area <br>
+git init                         *===> initilization* <br>
+git add . or git add "filename"  *===> To add files/contents to statging area* <br>
 git status                        ===> To status <br>
 git commit -m "comment"           ===> To commit <br>
 <br>
