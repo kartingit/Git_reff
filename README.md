@@ -50,7 +50,7 @@
 `git reset --soft HEAD~1    ` *`To undo commit(latest commit(HEAD~1) and edited stuffs moves to staging area`*  <br>
 `git reset --hard HEAD~1   ` *`To undo commit(seleted commit(HEAD~1) and it wont keep any changes as well as history of removed commit`*  <br>
 <br>
-`git refolg` *`It can be handy when there is a messups`* *`similar feature as git log but it will show even hard reset logs too`*  <br>
+`git refolg` :confused: *`It can be handy when there is a messups`* *`similar feature as git log but it will show even hard reset logs too`*  <br>
 *`With that we can retrive privious commit without any worry using ' git reset --hard "hash" '` `where hash is of commit that we want to getback/retrive`* <br>
 <br>
 `git stash                  ` *`To move edits from working area to stashing area`*  <br>
