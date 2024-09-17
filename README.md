@@ -45,6 +45,22 @@
 `git rebase -i HEAD~4       ` *`It will show the last 4 commits and provide various options for modifying them`*<br>
 <br>
 `git cherry-pick "commit hash"  ` *`To pick desired commit(hash) from one branch to another`*<br>
+<br>
+`git revert "commit hash"   ` *`To undo commit(seleted hash) but it keeps history of revereted commit`*  <br>
+`git reset --soft HEAD~1    ` *`To undo commit(latest commit(HEAD~1) and edited stuffs moves to staging area`*  <br>
+`git reset --hard HEAD~1   ` *`To undo commit(seleted commit(HEAD~1) and it wont keep any changes as well as history of removed commit`*  <br>
+<br>
+`git refolg` *`It can be handy when there is a messups`* *`similar feature as git log but it will show even hard reset logs too`*  <br>
+*`With that we can retrive privious commit without any worry using ' git reset --hard "hash" '` `where hash is of commit that we want to getback/retrive`* <br>
+<br>
+`git stash                  ` *`To move edits from working area to stashing area`*  <br>
+`git stash list             ` *`To list edits which moved from working area`*  <br>
+`git stash show "stash[]"   ` *`To show edits of selected stash`*  <br>
+`git stash pop "stash[]"    ` *`To move back edits of selected stash to working directory`*  <br>
+<br>
+<br>
+`Above disscused commands in another word as porcelain commands`<br>
+`Plumbing commands` `Examples are git hash-object,git ls-files` <br>
 
 
  
