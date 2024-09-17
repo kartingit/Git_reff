@@ -41,8 +41,8 @@
 `git fetch hxxps://github(.)com/Git_reff.git` <br>
 `git merge groot/main`<br>
 <br>
-`git rebase name                ` *`Rebase onto the name branch /similar to merge but you dont see merge commit`*<br> 
-`git rebase -i HEAD~4           ` *`It will show the last 4 commits and provide various options for modifying them`*<br>
+`git rebase name            ` *`Rebase onto the name branch /similar to merge but you dont see merge commit`*<br> 
+`git rebase -i HEAD~4       ` *`It will show the last 4 commits and provide various options for modifying them`*<br>
 <br>
 `git cherry-pick "commit hash"  ` *`To pick desired commit(hash) from one branch to another`*<br>
 
