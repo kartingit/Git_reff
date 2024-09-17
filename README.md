@@ -1,4 +1,4 @@
-## Git Commands For Referance
+## Git Commands For Reference
 
 `git init                                     `   *`To initilization`*<br>
 `git add . or git add filename                `   *`To add files/contents to statging area`* <br>
