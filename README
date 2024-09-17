@@ -1,17 +1,17 @@
 # Git Commands For Referance
 
 git init                         *===> initilization* <br>
-git add . or git add "filename"  *===> To add files/contents to statging area* <br>
-git status                        ===> To status <br>
-git commit -m "comment"           ===> To commit <br>
+git add . or git add filename  --- *===> To add files/contents to statging area* <br>
+git status                       *===> To status* <br>
+git commit -m "comment"          *===> To commit* <br>
 <br>
-git restore filename              ===> If files modified that can be restored to privious state <br>
-git restore --staged filename     ===> If files "staged" that can be unstaged/restored to privious state <br> 
-git rm --cached filename          ===> To unstage <br>
+git restore filename              *===> If files modified that can be restored to privious state* <br>
+git restore --staged filename     *===> If files "staged" that can be unstaged/restored to privious state* <br> 
+git rm --cached filename          *===> To unstage* <br>
 <br>
-git config -l                     ===> which comes handy <br> 
+git config -l                     *===> which comes handy* <br> 
 git config user.name name  <br>
-git config user.name name@somwhere.com <br>
+git config user.name name(@)somwhere(.)com <br>
 <br>
 git log                           ===> To check logs of commits of repo <br>
 git log --oneline                 ===> It will display logs in single line <br>
