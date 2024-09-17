@@ -1,12 +1,12 @@
 # Git Commands For Referance
 
-git init                          ===> initilization
-git add. or git add "filename"    ===> To add files/contents to statging area
-git status                        ===> To status
-git commit -m "comment"           ===> To commit 
-
-git restore filename              ===> If files modified that can be restored to privious state
-git restore --staged filename     ===> If files "staged" that can be unstaged/restored to privious state
+git init                          ===> initilization <br>
+git add. or git add "filename"    ===> To add files/contents to statging area <br>
+git status                        ===> To status <br>
+git commit -m "comment"           ===> To commit <br>
+<br>
+git restore filename              ===> If files modified that can be restored to privious state <br>
+git restore --staged filename     ===> If files "staged" that can be unstaged/restored to privious state <br> 
 git rm --cached filename          ===> To unstage
 
 git config -l                     ===> which comes handy 
