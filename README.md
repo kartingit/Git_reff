@@ -29,22 +29,22 @@
 <br>
 `git remote add groot hxxps://github(.)com/Git_reff.git`  *`To add remote repo on local in the name of "groot"`* <br>
 `git remote -v                                         `  *`To list remote repo`* <br> 
-`git push groot main                                   `  *`To push contents/commits to remote repo on main branch`* <br>
+`git push groot main                         `  *`To push contents/commits to remote repo on main branch`* <br>
 `git clone hxxps://github(.)com/Git_reff.git <br>      `  *`To clone`* <br>
 <br>
-`// Pull request //                            `  *`This can be done only on Portal [Remote/WebGUI] /To contribute/ To merge`* <br>
-`// fork //                                    `  *`[Remote/WebGUI] forking others repo`* <br>
+`// Pull request //                          `  *`This can be done only on Portal [Remote/WebGUI] /To contribute/ To merge`* <br>
+`// fork //                                  `  *`[Remote/WebGUI] forking others repo`* <br>
 <br>
-`// git pull = git fetch + git merge //`<br>
+`// git pull = git fetch + git merge //` <br>
 <br>
 `git pull hxxps://github(.)com/Git_reff.git` <br>
 `git fetch hxxps://github(.)com/Git_reff.git` <br>
 `git merge groot/main`<br>
 <br>
-`git rebase name                                ` *`Rebase onto the name branch /similar to merge but you dont see merge commit`*<br> 
-`git rebase -i HEAD~4                           ` *`It will show the last 4 commits and provide various options for modifying them`*<br>
+`git rebase name                     ` *`Rebase onto the name branch /similar to merge but you dont see merge commit`*<br> 
+`git rebase -i HEAD~4                ` *`It will show the last 4 commits and provide various options for modifying them`*<br>
 <br>
-`git cherry-pick "commit hash"                  ` *`To pick desired commit(hash) from one branch to another`*<br>
+`git cherry-pick "commit hash"       ` *`To pick desired commit(hash) from one branch to another`*<br>
 
 
  
